@@ -26,8 +26,8 @@ initApp()
   .then((app) => {
     app.listen(
       {
-        port: process.env.ENV === 'production' ? 80 : 3008,
-        host: 'localhost',
+        port: process.env.ENV === 'production' ? 3007 : 3008,
+        host: '0.0.0.0',
         listenTextResolver: (address) => `SERVER listening at ${address}`,
       },
       () => null
