@@ -16,8 +16,8 @@ const initApp = async () => {
     root: path.join(__dirname)
   });
 
-  app.get('/', (req, res) => res.sendFile('../pages/index.html'));
-  app.get('/card', (req, res) => res.sendFile('../pages/card.html'));
+  app.get('/', (req, res) => res.sendFile('./pages/index.html'));
+  app.get('/card', (req, res) => res.sendFile('./pages/card.html'));
 
   return app;
 };
