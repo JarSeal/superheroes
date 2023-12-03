@@ -1,0 +1,24 @@
+{
+  "name": "ash-superheroes",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "JarSeal",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "packageManager": "yarn@1.22.15",
+  "engines": {
+    "node": ">=16.15.0",
+    "yarn": ">=1.22.15"
+  },
+  "dependencies": {
+    "fastify": "4.18.0",
+    "@fastify/static": "6.12.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "10.0.0"
+  }
+}
