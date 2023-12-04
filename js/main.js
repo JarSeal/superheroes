@@ -1,3 +1,6 @@
+// ash-superheroes.netlify.app
+
+
 // APP DATA
 const data = [
   {
@@ -12,7 +15,7 @@ const data = [
     name: "Gianna the Superhero",
     superpower: "Being cool!",
     weakness: "Afraid of Jimmy",
-    image: "https://th.bing.com/th/id/OIG.2_lI0Wc1SRDGW5ejtzQ.?pid=ImgGn"
+    image: "https://th.bing.com/th/id/OIG.H0o0ZySxmirBCIq1S75R?w=1024&h=1024&rs=1&pid=ImgDetMain"
   },
   {
     id: "hero3",
