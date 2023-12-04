@@ -2,16 +2,10 @@
 const data = [
   // {
   //   id: "hero1",
-  //   name: "Loud Whisperer",
-  //   superpower: "Whispers really loud",
-  //   image: "https://th.bing.com/th/id/OIG._Gx1ghcSzivTI5k.N1nE?w=1024&h=1024&rs=1&pid=ImgDetMain"
+  //   name: "",
+  //   superpower: "",
+  //   image: ""
   // },
-  // {
-  //   id: "hero2",
-  //   name: "Chair Breaker",
-  //   superpower: "Breaks a lot of chairs",
-  //   image: "https://th.bing.com/th/id/OIG.T7.UgM3ELbTcuX4UneJs?pid=ImgGn"
-  // }
 ]
 
 // HOME PAGE
@@ -72,3 +66,30 @@ if (PAGE === 'home') {
 } else if (PAGE === 'hero') {
   cardPage();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// {
+  //   id: "hero1",
+  //   name: "Loud Whisperer",
+  //   superpower: "Whispers really loud",
+  //   image: "https://th.bing.com/th/id/OIG._Gx1ghcSzivTI5k.N1nE?w=1024&h=1024&rs=1&pid=ImgDetMain"
+  // },
+  // {
+  //   id: "hero2",
+  //   name: "Chair Breaker",
+  //   superpower: "Breaks a lot of chairs",
+  //   image: "https://th.bing.com/th/id/OIG.T7.UgM3ELbTcuX4UneJs?pid=ImgGn"
+  // }
