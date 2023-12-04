@@ -29,6 +29,7 @@ const data = [
     name: "Immune man",
     superpower: "Not killable, healthy, fly, superspeed, invisibility",
     weakness: "Sweets, not healthy",
+    image: "https://th.bing.com/th/id/OIG.3K7WAkACMtFb7vj2y_i6?w=1024&h=1024&rs=1&pid=ImgDetMain",
   },
   {
     id: "hero5",
