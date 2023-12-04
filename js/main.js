@@ -16,9 +16,9 @@ const data = [
 
 // HOME PAGE
 const homePage = function() {
-  // const cardsWrapper = document.getElementById('heroes');
+  // const cardsWrapperElem = document.getElementById('heroes');
   // data.forEach(function(card) {
-  //   const cardToBeAdded = document.createElement('div');
+  //   const cardToBeAdded = document.createElement('button');
   //   cardToBeAdded.classList.add('card');
 
   //   if (card.image) {
@@ -35,7 +35,7 @@ const homePage = function() {
   //     `;
   //   }
 
-  //   cardsWrapper.append(cardToBeAdded);
+  //   cardsWrapperElem.append(cardToBeAdded);
 
   //   cardToBeAdded.addEventListener('click', function() {
   //     window.location.href = `hero.html?id=${card.id}`;
@@ -64,12 +64,6 @@ const cardPage = function() {
   // } else {
   //   bigImageElem.parentElement.textContent = '(No image found)';
   // }
-  
-  // const backButtonElem = document.getElementById('backButton');
-  // backButtonElem.addEventListener('click', function() {
-  //   console.log('click');
-  //   window.location.href = './index.html';
-  // })
 }
 
 // CHECK WHICH PAGE

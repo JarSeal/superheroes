@@ -1,4 +1,5 @@
-/* body {
+/*
+body {
   background: black url('./fancy-cushion.png') repeat;
   padding: 0;
   color: #f9f9f9;
@@ -38,6 +39,8 @@
 }
 
 .card {
+  border: none;
+  color: #f9f9f9;
   background-color: #333;
   box-shadow: 0 2px 80px rgba(0, 0, 0, 0.8);
   border-radius: 8px;
@@ -74,9 +77,8 @@ img {
 }
 
 .backButton {
-  border: none;
-  background: none;
-  outline: none;
+  display: inline-block;
+  text-decoration: none;
   margin: 10px 0;
   background-color: #333;
   box-shadow: 0 2px 80px rgba(0, 0, 0, 0.8);
@@ -90,4 +92,5 @@ img {
 
 .backButton:hover {
   transform: scale(1.5);
-} */
+}
+*/
