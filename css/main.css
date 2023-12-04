@@ -1,4 +1,4 @@
-/*
+
 body {
   background: black url('./fancy-cushion.png') repeat;
   padding: 0;
@@ -93,4 +93,3 @@ img {
 .backButton:hover {
   transform: scale(1.5);
 }
-*/
