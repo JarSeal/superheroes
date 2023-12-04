@@ -1,0 +1,93 @@
+body {
+  background: black url('./fancy-cushion.png') repeat;
+  padding: 0;
+  color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  max-width: 1020px;
+  margin: 50px auto;
+}
+
+.page h1,
+.page p,
+.page .bigImageWrapper {
+  margin: 30px 0;
+  background-color: #333;
+  box-shadow: 0 2px 80px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.page p {
+  font-size: 28px;
+}
+
+.cardsWrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.card {
+  background-color: #333;
+  box-shadow: 0 2px 80px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 15px 30px;
+  width: 320px;
+  height: 230px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.imageWrapper {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #383838;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.backButton {
+  border: none;
+  background: none;
+  outline: none;
+  margin: 10px 0;
+  background-color: #333;
+  box-shadow: 0 2px 80px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 20px;
+  color: #f9f9f9;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.backButton:hover {
+  transform: scale(1.5);
+}
