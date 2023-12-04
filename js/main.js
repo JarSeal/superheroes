@@ -41,6 +41,12 @@ const data = [
     name: "Chair Breaker",
     superpower: "Breaks a lot of chairs",
     image: "https://th.bing.com/th/id/OIG.T7.UgM3ELbTcuX4UneJs?pid=ImgGn"
+  },
+  {
+    id: "hero7",
+    name: "Super Skibidi",
+    superpower: "Skibidi toilet power",
+    image: "https://th.bing.com/th/id/OIG.3Se9KVpGmjKsM8DMR5tk?w=1024&h=1024&rs=1&pid=ImgDetMain"
   }
 ]
 
