@@ -47,7 +47,19 @@ const data = [
     name: "Super Skibidi",
     superpower: "Skibidi toilet power",
     image: "https://th.bing.com/th/id/OIG.3Se9KVpGmjKsM8DMR5tk?w=1024&h=1024&rs=1&pid=ImgDetMain"
-  }
+  },
+  {
+    id: "hero8",
+    name: "Helene",
+    superpower: "Hypnotize",
+    image: "https://th.bing.com/th/id/OIG.V5KnGFb.amptluzrf47C?w=1024&h=1024&rs=1&pid=ImgDetMain"
+  },
+  {
+    id: "hero9",
+    name: "Furryman",
+    superpower: "Can transform",
+    image: "https://th.bing.com/th/id/OIG.0A_caqRJqXi67NcK6FUR?w=1024&h=1024&rs=1&pid=ImgDetMain"
+  },
 ]
 
 // HOME PAGE
